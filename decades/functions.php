@@ -401,6 +401,16 @@ function add_custom_css() { ?>
 	<script>
 		jQuery(document).ready(function($) {
 
+			// $('.wp-video-shortcode').mediaelementplayer( {pauseOtherPlayers: false} );
+			
+			$(document).on('click', '.mejs-overlay-button', function(event) {
+				//$('.mejs-overlay-play').trigger('click');
+				$(this).hide();
+				$(this).css('display', 'none !important');
+				//console.log('click');
+			});
+
+
 		$(".vc_custom_1539741113090 a.ot-btn, .zypp-button a.ot-btn").click(function(e) {
 			//console.log('cl');
 		    e.preventDefault();
@@ -411,14 +421,86 @@ function add_custom_css() { ?>
 		});
 	</script>
 	<style>
-	.zypp-button .dl-btn.btn-1, .zypp-button .dl-btn.btn-2 {
+	#features .mockup-front {
+		left: -110px; 
+	}
+	#features3 .mockup-front {
+		left: -110px; 
+	}
+	.form-control {
+    padding: 6px 12px;
+}
+.wp-video, video.wp-video-shortcode, .mejs-container, .mejs-overlay.load {
+    width: 100% !important;
+    height: 100% !important;
+}
+.mejs-container {
+    padding-top: 56.25%;
+}
+.wp-video, video.wp-video-shortcode {
+    max-width: 100% !important;
+}
+video.wp-video-shortcode {
+    position: relative;
+}
+.mejs-mediaelement {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.mejs-controls {
+    display: none !important;
+}
+.mejs-overlay-play {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto !important;
+    height: auto !important;
+}
+.mejs-overlay-play {
+	display: flex !important;
+}
+
+	#main_video .vc_column_container>.vc_column-inner {
+	    padding-left: 0px;
+	    padding-right: 0px;
+
+	}
+	.menu-footer-links-container {
+		text-align: center;
+	}
+	.menu-footer-links-container ul {
+		padding: 0;
+    	margin-top: 50px;
+	}
+	.menu-footer-links-container ul li {
+		list-style: none;
+	}
+	.top-footer .section-title .font-alt {
 		display: none;
 	}
+	.zypp-button .dl-btn.btn-1
+	,.zypp-button .dl-btn.btn-2
+	/*,.zypp-button .dl-btn*/ 
+	{
+		display: none;
+	}
+	.vc_custom_1539741113090 .zypp-button .dl-btn {
+		display: none;
+	}
+
 	.zypp-button .dl-btn {
 		    border-top-left-radius: 100px;
     		border-bottom-left-radius: 100px;
     		border-top-right-radius: 100px;
     		border-bottom-right-radius: 100px;
+		background-image: linear-gradient(to right, #99e1c6 0%, #8fd3f4 70%, #8bd3e9 100%);
+	    border-width: 0px;
+	    padding: 11px 22px;
 	}
 		#zypp_footer_address {
 			color: #3a3939;
@@ -501,7 +583,43 @@ function add_custom_css() { ?>
 			.vc_custom_1539847923361 {
 			    padding-bottom: 0px !important;
 			}
+			.vc_custom_1543554450814 {
+			    margin-top: 0px !important;
+			    text-align: center;
+			}
+			#features .mockup-front {
+			    left: 0;
+			}
+			.vc_custom_1542695317176 {
+			    margin-top: 0px !important;
+			    margin-bottom: 40px !important;
+			    text-align: center;
+			}
+			#features2 .mockup {
+				left: 74px;
+			}
+			.vc_custom_1543525293941 {
+			    margin-top: 0px !important;
+			    margin-bottom: 40px !important;
+			    text-align: center;
+			}
+			#features3 .mockup-front {
+			    left: -50px;
+			}
 		}
 	</style>
 	<?php
+}
+
+add_filter( 'shortcode_atts_video', 'overwrite_video_atts_wpse', 10,3 );
+
+function overwrite_video_atts_wpse( $out, $pairs, $atts )
+{
+    // force the autoplay video shortcode attribute to ON:
+    $out['autoplay'] = 'on'; 
+
+    // force the autoplay video shortcode attribute to OFF:
+    //$out['autoplay'] = 0; 
+
+    return $out;
 }
