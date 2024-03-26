@@ -1,0 +1,1222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Decades v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-03-17 02:55:41+0000\n"
+"Last-Translator: admin <learn@oceanthemes.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:16
+#@ decades
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+#@ decades
+msgid "Oops. You have encountered an error."
+msgstr ""
+
+#: 404.php:18
+#@ decades
+msgid "It appears the page your were looking for does not exist. Sorry about that."
+msgstr ""
+
+#: 404.php:20
+#@ decades
+msgid "Try to search something..."
+msgstr ""
+
+#: 404.php:23
+#@ decades
+msgid "or"
+msgstr ""
+
+#: 404.php:24
+#@ decades
+msgid " GO BACK TO HOME"
+msgstr ""
+
+#: comments.php:28
+#@ decades
+msgid "0"
+msgstr ""
+
+#: comments.php:28
+#@ decades
+msgid "1"
+msgstr ""
+
+#: comments.php:28
+#@ decades
+msgid "%"
+msgstr ""
+
+#: comments.php:28
+#@ decades
+msgid "COMMENTS"
+msgstr ""
+
+#: comments.php:36
+#@ decades
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37
+#@ decades
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:43
+#@ decades
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:55
+#@ decades
+msgid "LEAVE A COMMENT"
+msgstr ""
+
+#: comments.php:57
+#@ decades
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:58
+#@ decades
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:60
+#@ decades
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:61
+#@ decades
+msgid "Post Comment"
+msgstr ""
+
+#: content-audio.php:16
+#: content-gallery.php:21
+#: content-image.php:21
+#: content-video.php:14
+#: content.php:16
+#: single.php:100
+#@ decades
+msgid "comment"
+msgstr ""
+
+#: content-audio.php:16
+#: content-gallery.php:21
+#: content-image.php:21
+#: content-video.php:14
+#: content.php:16
+#: single.php:100
+#@ decades
+msgid "comments"
+msgstr ""
+
+#: content-audio.php:20
+#: content-gallery.php:25
+#: content-image.php:25
+#: content-video.php:18
+#: content.php:20
+#@ decades
+msgid "Read More"
+msgstr ""
+
+#: footer.php:18
+#@ decades
+msgid "Follow Us"
+msgstr ""
+
+#: footer.php:19
+#@ decades
+msgid "get connect with us"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:334
+#@ decades
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:335
+#@ decades
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: framework/class-tgm-plugin-activation.php:337
+#, php-format
+#@ decades
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: framework/class-tgm-plugin-activation.php:339
+#, php-format
+#@ decades
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:340
+#@ decades
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:343
+#, php-format
+#@ decades
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:349
+#, php-format
+#@ decades
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:355
+#, php-format
+#@ decades
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:361
+#, php-format
+#@ decades
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:367
+#, php-format
+#@ decades
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:373
+#, php-format
+#@ decades
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:378
+#@ decades
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:383
+#@ decades
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:388
+#@ decades
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:392
+#@ decades
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:393
+#: framework/class-tgm-plugin-activation.php:912
+#: framework/class-tgm-plugin-activation.php:2618
+#: framework/class-tgm-plugin-activation.php:3665
+#@ decades
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:394
+#: framework/class-tgm-plugin-activation.php:3244
+#@ decades
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:397
+#, php-format
+#@ decades
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:399
+#, php-format
+#@ decades
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: framework/class-tgm-plugin-activation.php:401
+#, php-format
+#@ decades
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:402
+#@ decades
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:403
+#@ decades
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:404
+#@ decades
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:607
+#@ decades
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:608
+#@ decades
+msgid "Update Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1019
+#@ decades
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1019
+#: framework/class-tgm-plugin-activation.php:1022
+#@ decades
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1022
+#@ decades
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1206
+#: framework/class-tgm-plugin-activation.php:3033
+#@ decades
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: framework/class-tgm-plugin-activation.php:2067
+#, php-format
+#@ decades
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2358
+#@ decades
+msgid "Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2361
+#@ decades
+msgid "Recommended"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2377
+#@ decades
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2380
+#@ decades
+msgid "External Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2383
+#@ decades
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2400
+#@ decades
+msgid "Not Installed"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2404
+#@ decades
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2406
+#@ decades
+msgid "Active"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2412
+#@ decades
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2415
+#@ decades
+msgid "Requires Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2418
+#@ decades
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: framework/class-tgm-plugin-activation.php:2427
+#, php-format
+#@ decades
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2473
+#, php-format
+#@ decades
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2477
+#, php-format
+#@ decades
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2481
+#, php-format
+#@ decades
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2485
+#, php-format
+#@ decades
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2567
+#@ decades
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2575
+#@ decades
+msgid "Installed version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2583
+#@ decades
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2595
+#@ decades
+msgid "Available version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2618
+#@ decades
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2632
+#@ decades
+msgid "Plugin"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2633
+#@ decades
+msgid "Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2634
+#@ decades
+msgid "Type"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2638
+#@ decades
+msgid "Version"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2639
+#@ decades
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2688
+#, php-format
+#@ decades
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2693
+#, php-format
+#@ decades
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2699
+#, php-format
+#@ decades
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2769
+#@ decades
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2802
+#@ decades
+msgid "Install"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2808
+#@ decades
+msgid "Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2811
+#@ decades
+msgid "Activate"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2842
+#@ decades
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2844
+#@ decades
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2885
+#@ decades
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2887
+#@ decades
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2993
+#@ decades
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3019
+#@ decades
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: framework/class-tgm-plugin-activation.php:3037
+#: framework/class-tgm-plugin-activation.php:395
+#@ decades
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:3243
+#@ decades
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3583
+#, php-format
+#@ decades
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/class-tgm-plugin-activation.php:3586
+#, php-format
+#@ decades
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3588
+#, php-format
+#@ decades
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3592
+#@ decades
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3594
+#, php-format
+#@ decades
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3594
+#: framework/class-tgm-plugin-activation.php:3602
+#@ decades
+msgid "Show Details"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3594
+#: framework/class-tgm-plugin-activation.php:3602
+#@ decades
+msgid "Hide Details"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3595
+#@ decades
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3597
+#, php-format
+#@ decades
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3600
+#@ decades
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3602
+#, php-format
+#@ decades
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3603
+#@ decades
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3605
+#, php-format
+#@ decades
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/customizer.php:156
+#@ decades
+msgid "General"
+msgstr ""
+
+#: framework/customizer.php:160
+#@ decades
+msgid "Header"
+msgstr ""
+
+#: framework/customizer.php:164
+#: framework/customizer.php:201
+#: framework/customizer.php:501
+#@ decades
+msgid "Socials"
+msgstr ""
+
+#: framework/customizer.php:172
+#@ decades
+msgid "Top Header"
+msgstr ""
+
+#: framework/customizer.php:179
+#@ decades
+msgid "Navigation"
+msgstr ""
+
+#: framework/customizer.php:186
+#@ decades
+msgid "Site Logo"
+msgstr ""
+
+#: framework/customizer.php:193
+#: framework/customizer.php:375
+#@ decades
+msgid "Page Header"
+msgstr ""
+
+#: framework/customizer.php:210
+#: index.php:21
+#@ decades
+msgid "Blog"
+msgstr ""
+
+#: framework/customizer.php:218
+#@ decades
+msgid "Portfolio"
+msgstr ""
+
+#: framework/customizer.php:226
+#@ decades
+msgid "Footer"
+msgstr ""
+
+#: framework/customizer.php:234
+#@ decades
+msgid "404 Error"
+msgstr ""
+
+#: framework/customizer.php:243
+#@ decades
+msgid "Miscellaneous"
+msgstr ""
+
+#: framework/customizer.php:253
+#@ decades
+msgid "Sticky Header"
+msgstr ""
+
+#: framework/customizer.php:260
+#@ decades
+msgid "Background Main Menu"
+msgstr ""
+
+#: framework/customizer.php:267
+#@ decades
+msgid "Color Text Menu"
+msgstr ""
+
+#: framework/customizer.php:274
+#@ decades
+msgid "Background Scroll Menu"
+msgstr ""
+
+#: framework/customizer.php:288
+#@ decades
+msgid "Color Text Scroll Menu"
+msgstr ""
+
+#: framework/customizer.php:305
+#@ decades
+msgid "Logo"
+msgstr ""
+
+#: framework/customizer.php:312
+#@ decades
+msgid "Logo Width"
+msgstr ""
+
+#: framework/customizer.php:319
+#@ decades
+msgid "Logo Height"
+msgstr ""
+
+#: framework/customizer.php:326
+#@ decades
+msgid "Logo Margin"
+msgstr ""
+
+#: framework/customizer.php:339
+#@ decades
+msgid "Logo Scroll"
+msgstr ""
+
+#: framework/customizer.php:346
+#@ decades
+msgid "Logo Scroll Width"
+msgstr ""
+
+#: framework/customizer.php:353
+#@ decades
+msgid "Logo Scroll Height"
+msgstr ""
+
+#: framework/customizer.php:360
+#@ decades
+msgid "Logo Scroll Margin"
+msgstr ""
+
+#: framework/customizer.php:376
+#@ decades
+msgid "Enable to show page header on whole site"
+msgstr ""
+
+#: framework/customizer.php:383
+#@ decades
+msgid "Height (px)"
+msgstr ""
+
+#: framework/customizer.php:397
+#: framework/customizer.php:565
+#@ decades
+msgid "Background Image"
+msgstr ""
+
+#: framework/customizer.php:398
+#@ decades
+msgid "Upload a page header background image"
+msgstr ""
+
+#: framework/customizer.php:414
+#@ decades
+msgid "Blog List Layout"
+msgstr ""
+
+#: framework/customizer.php:426
+#@ decades
+msgid "Single Blog Layout"
+msgstr ""
+
+#: framework/customizer.php:438
+#@ decades
+msgid "Title Header Single"
+msgstr ""
+
+#: framework/customizer.php:445
+#@ decades
+msgid "Read More Button"
+msgstr ""
+
+#: framework/customizer.php:452
+#@ decades
+msgid "Excerpt Length"
+msgstr ""
+
+#: framework/customizer.php:466
+#@ decades
+msgid "Footer Socials"
+msgstr ""
+
+#: framework/customizer.php:473
+#@ decades
+msgid "Title (Follow US)"
+msgstr ""
+
+#: framework/customizer.php:487
+#@ decades
+msgid "Subtitle (get connect with us)"
+msgstr ""
+
+#: framework/customizer.php:508
+#@ decades
+msgid "Icon Class"
+msgstr ""
+
+#: framework/customizer.php:509
+#@ decades
+msgid "This will be the social icon: http://fontawesome.io/icons/"
+msgstr ""
+
+#: framework/customizer.php:514
+#@ decades
+msgid "Link URL"
+msgstr ""
+
+#: framework/customizer.php:515
+#@ decades
+msgid "This will be the social link"
+msgstr ""
+
+#: framework/customizer.php:520
+#@ decades
+msgid "Name"
+msgstr ""
+
+#: framework/customizer.php:521
+#@ decades
+msgid "This will be the social name"
+msgstr ""
+
+#: framework/customizer.php:535
+#@ decades
+msgid "Background Footer"
+msgstr ""
+
+#: framework/customizer.php:542
+#@ decades
+msgid "Color Text Footer"
+msgstr ""
+
+#: framework/customizer.php:549
+#@ decades
+msgid "Copy Right Text"
+msgstr ""
+
+#: framework/customizer.php:558
+#@ decades
+msgid "Height"
+msgstr ""
+
+#: framework/customizer.php:572
+#@ decades
+msgid "Background Color"
+msgstr ""
+
+#: framework/customizer.php:579
+#@ decades
+msgid "Text Color"
+msgstr ""
+
+#: framework/customizer.php:589
+#@ decades
+msgid "Preloader"
+msgstr ""
+
+#: framework/customizer.php:596
+#@ decades
+msgid "Preloader Image"
+msgstr ""
+
+#: framework/customizer.php:610
+#@ decades
+msgid "Primary Color"
+msgstr ""
+
+#: framework/customizer.php:617
+#@ decades
+msgid "Custom Code"
+msgstr ""
+
+#: framework/customizer.php:618
+#@ decades
+msgid "Add more js, css, html... code here."
+msgstr ""
+
+#: framework/meta-boxes.php:20
+#@ decades
+msgid "Format Details"
+msgstr ""
+
+#: framework/meta-boxes.php:34
+#@ decades
+msgid "Image"
+msgstr ""
+
+#: framework/meta-boxes.php:48
+#@ decades
+msgid "Gallery"
+msgstr ""
+
+#: framework/meta-boxes.php:60
+#@ decades
+msgid "Audio"
+msgstr ""
+
+#: framework/meta-boxes.php:78
+#@ decades
+msgid "Video"
+msgstr ""
+
+#: framework/plugin-requires.php:8
+#@ decades
+msgid "Meta Box"
+msgstr ""
+
+#: framework/plugin-requires.php:15
+#@ decades
+msgid "Kirki Customizer"
+msgstr ""
+
+#: framework/plugin-requires.php:20
+#@ decades
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: framework/plugin-requires.php:26
+#@ decades
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/plugin-requires.php:31
+#@ decades
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: framework/template-tags.php:121
+#@ decades
+msgid "Search..."
+msgstr ""
+
+#: framework/template-tags.php:139
+#, php-format
+#@ decades
+msgid "%s"
+msgstr ""
+
+#: framework/template-tags.php:147
+#@ decades
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:51
+#@ decades
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:52
+#@ decades
+msgid "Onepage Menu"
+msgstr ""
+
+#: functions.php:101
+#@ decades
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:103
+#: functions.php:112
+#@ decades
+msgid "Appears in the sidebar section of the site."
+msgstr ""
+
+#: functions.php:110
+#@ decades
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:119
+#@ decades
+msgid "Footer One Widget Area"
+msgstr ""
+
+#: functions.php:121
+#: functions.php:131
+#: functions.php:141
+#: functions.php:151
+#@ decades
+msgid "Footer Widget that appears on the Footer."
+msgstr ""
+
+#: functions.php:129
+#@ decades
+msgid "Footer Two Widget Area"
+msgstr ""
+
+#: functions.php:139
+#@ decades
+msgid "Footer Three Widget Area"
+msgstr ""
+
+#: functions.php:149
+#@ decades
+msgid "Footer Fourth Widget Area"
+msgstr ""
+
+#: functions.php:172
+#@ decades
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:173
+#@ decades
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:174
+#@ decades
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:175
+#@ decades
+msgctxt "Sofia font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:269
+#@ decades
+msgid "Setup Full Width"
+msgstr ""
+
+#: functions.php:272
+#@ decades
+msgid "No"
+msgstr ""
+
+#: functions.php:273
+#@ decades
+msgid "Yes"
+msgstr ""
+
+#: functions.php:275
+#@ decades
+msgid "Select Full width for row : yes or not, Default: No fullwidth"
+msgstr ""
+
+#: functions.php:280
+#@ decades
+msgid "Setup Full Height"
+msgstr ""
+
+#: functions.php:286
+#@ decades
+msgid "Background Parallax"
+msgstr ""
+
+#: functions.php:292
+#@ decades
+msgid "Particles"
+msgstr ""
+
+#: functions.php:300
+#: functions.php:335
+#@ decades
+msgid "CSS Animation"
+msgstr ""
+
+#: functions.php:303
+#: functions.php:338
+#@ decades
+msgid "None"
+msgstr ""
+
+#: functions.php:304
+#: functions.php:339
+#@ decades
+msgid "Fade In Up"
+msgstr ""
+
+#: functions.php:305
+#: functions.php:340
+#@ decades
+msgid "Fade In Down"
+msgstr ""
+
+#: functions.php:306
+#: functions.php:341
+#@ decades
+msgid "Fade In"
+msgstr ""
+
+#: functions.php:307
+#: functions.php:342
+#@ decades
+msgid "Fade In Left"
+msgstr ""
+
+#: functions.php:308
+#: functions.php:343
+#@ decades
+msgid "Fade In Right"
+msgstr ""
+
+#: functions.php:310
+#: functions.php:345
+#@ decades
+msgid "Select Animate , Default: None"
+msgstr ""
+
+#: functions.php:315
+#: functions.php:350
+#@ decades
+msgid "Animation time delay number"
+msgstr ""
+
+#: functions.php:318
+#: functions.php:327
+#: functions.php:353
+#: functions.php:362
+#@ decades
+msgid "Example : 0.2, 0.6, 1, etc"
+msgstr ""
+
+#: functions.php:324
+#: functions.php:359
+#@ decades
+msgid "Animation time duration number"
+msgstr ""
+
+#: page.php:55
+#: single.php:105
+#@ decades
+msgid "Pages:"
+msgstr ""
+
+#: page.php:59
+#: single.php:109
+#@ decades
+msgid "Page"
+msgstr ""
+
+#: search.php:16
+#, php-format
+#@ decades
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:35
+#@ decades
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:38
+#@ buildpro
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: single.php:33
+#@ decades
+msgid "Single Blog"
+msgstr ""
+
