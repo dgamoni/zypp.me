@@ -394,3 +394,114 @@ if(function_exists('vc_remove_param')){
  * @since Split Vcard 1.0
  */
 require_once get_template_directory() . '/framework/plugin-requires.php';
+
+
+add_action('wp_footer', 'add_custom_css');
+function add_custom_css() { ?>
+	<script>
+		jQuery(document).ready(function($) {
+
+		$(".vc_custom_1539741113090 a.ot-btn, .zypp-button a.ot-btn").click(function(e) {
+			//console.log('cl');
+		    e.preventDefault();
+		    var aid = $(this).attr("href");
+		    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+		});
+
+		});
+	</script>
+	<style>
+	.zypp-button .dl-btn.btn-1, .zypp-button .dl-btn.btn-2 {
+		display: none;
+	}
+	.zypp-button .dl-btn {
+		    border-top-left-radius: 100px;
+    		border-bottom-left-radius: 100px;
+    		border-top-right-radius: 100px;
+    		border-bottom-right-radius: 100px;
+	}
+		#zypp_footer_address {
+			color: #3a3939;
+			display: flex;
+		    align-items: center;
+		    justify-content: center;
+		}
+		#zypp_footer_address h3 {
+			color: #eee;
+			text-transform: uppercase;
+			font-size: 27px;
+    		line-height: 37px;
+		}
+		#zypp_footer_address a {
+			color: #3a3939;
+		}
+		.zypp_address {
+			display: none;
+		}
+		.zypp_contact_form7 {
+			display: none;
+		}
+		#zypp_map {
+			display: none;
+		}
+		#news {
+			display:none;
+		}
+		#zypp_video {
+			display: none;
+		}
+		.top-footer {
+		    background-color: initial;
+		    background-image: url('https://zypp.me/wp-content/uploads/2018/09/Zypp_site_footer_green.png');
+		}
+		.intro-content {
+		    padding-top: 300px;
+		    padding-bottom: 0;
+		}
+		.pricing-features ul {
+		    text-align: inherit;
+		    padding: 16px 0 16px 15px;
+		}
+		.pricing-features li {
+		    list-style: disc;
+		    font-style: normal;
+		}
+		.price-btn {
+		    text-align: inherit;
+		}
+		.vc_custom_1539847923361 {
+		    padding-bottom: 0px !important;
+		}
+		@media only screen and (max-width: 993px) {
+			.vc_custom_1539820091419,
+			.vc_custom_1539820104501,
+			.vc_custom_1539820116931 {
+				margin-top: 0 !important;
+			}
+			.intro-mockup {
+				margin-top: 100px;
+			}
+			.intro-content {
+    			padding-top: 150px;
+    		}
+		}
+		@media only screen and (max-width: 768px) {
+			.vc_custom_1539820091419,
+			.vc_custom_1539820104501,
+			.vc_custom_1539820116931 {
+				text-align: center;
+			}
+			#features2 .row {
+				display: flex;
+				flex-direction: column-reverse;
+			}
+			div.wpb_content_element.vc_custom_1539820104501 {
+				margin-bottom: 50px;
+			}
+			.vc_custom_1539847923361 {
+			    padding-bottom: 0px !important;
+			}
+		}
+	</style>
+	<?php
+}
